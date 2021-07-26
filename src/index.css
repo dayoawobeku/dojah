@@ -1,13 +1,47 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: "Athletics";
+  src: url("./fonts/Athletics-Regular.eot");
+  src: local("Athletics Regular"), local("Athletics-Regular"),
+    url("./fonts/Athletics-Regular.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/Athletics-Regular.woff2") format("woff2"),
+    url("./fonts/Athletics-Regular.woff") format("woff"),
+    url("./fonts/Athletics-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "Athletics";
+  src: url("./fonts/Athletics-ExtraBold.eot");
+  src: local("Athletics ExtraBold"), local("Athletics-ExtraBold"),
+    url("./fonts/Athletics-ExtraBold.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/Athletics-ExtraBold.woff2") format("woff2"),
+    url("./fonts/Athletics-ExtraBold.woff") format("woff"),
+    url("./fonts/Athletics-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Athletics";
+  src: url("./fonts/Athletics-Bold.eot");
+  src: local("Athletics Bold"), local("Athletics-Bold"),
+    url("./fonts/Athletics-Bold.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/Athletics-Bold.woff2") format("woff2"),
+    url("./fonts/Athletics-Bold.woff") format("woff"),
+    url("./fonts/Athletics-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Athletics";
+  src: url("./fonts/Athletics-Medium.eot");
+  src: local("Athletics Medium"), local("Athletics-Medium"),
+    url("./fonts/Athletics-Medium.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/Athletics-Medium.woff2") format("woff2"),
+    url("./fonts/Athletics-Medium.woff") format("woff"),
+    url("./fonts/Athletics-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
 }
