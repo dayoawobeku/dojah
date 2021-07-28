@@ -1,0 +1,56 @@
+.fifth-section {
+  background: var(--dark-grey);
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  margin-top: -13.1rem;
+  position: relative;
+  height: 42.4rem;
+  overflow: hidden;
+}
+
+.fifth-section-text {
+  width: 100%;
+  max-width: 43.5rem;
+  margin-top: 10.4rem;
+}
+
+.fourth-section--heading {
+  font-size: 3.1rem;
+  line-height: 4.5rem;
+}
+
+.fourth-section--body {
+  margin-top: 0.8rem;
+  font-size: 2rem;
+  line-height: 2.9rem;
+}
+
+.text-arrow-btns {
+  display: flex;
+  align-items: center;
+  font-size: 1.4rem;
+  z-index: 1;
+  width: 100%;
+}
+
+.fifth-section--btn {
+  color: var(--light-blue-shade);
+  margin-top: 1.6rem;
+  max-width: 20.2rem;
+}
+
+.fifth-section--btn:hover {
+  text-decoration: underline;
+}
+
+.fifth-section--btn p {
+  margin-right: 0.8rem;
+}
+
+.fifth-section--image {
+  width: 76.7rem;
+  height: 47.4rem;
+  margin-top: 10.4rem;
+  margin-left: -24rem;
+}

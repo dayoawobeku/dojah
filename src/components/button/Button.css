@@ -1,0 +1,11 @@
+.btn-default {
+  padding: 1.4rem 1.6rem;
+  cursor: pointer;
+  font-family: "Athletics";
+  font-size: 1.4rem;
+  font-weight: var(--athletics-medium);
+  outline: none;
+  border: none;
+  border-radius: 0.4rem;
+  line-height: 2.5rem;
+}

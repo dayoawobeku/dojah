@@ -1,0 +1,67 @@
+.hero-section {
+  max-width: 58.2rem;
+  margin: auto;
+  margin-top: 7.8rem;
+}
+
+.hero-section--text {
+  z-index: 1;
+}
+
+.hero-section--text h1,
+.hero-section--text p {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.hero-section--text h1 {
+  line-height: 6.6rem;
+  font-size: 4.8rem;
+  max-height: 12rem;
+}
+
+.hero-section--text p {
+  max-width: 40.9rem;
+  margin-top: 1.6rem;
+}
+
+.hero-section--actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.6rem;
+  gap: 1.6rem;
+  z-index: 1;
+}
+
+.hero-section--actions__primary Button {
+  background-color: var(--brand-blue);
+  color: var(--white);
+}
+
+.hero-section--actions__secondary Button {
+  background-color: hsl(219, 74%, 95%);
+  color: var(--brand-blue);
+}
+
+.hero-section--text__sub-body-text {
+  margin-top: 2.4rem;
+  font-size: 1.4rem;
+  font-weight: var(--athletics-medium);
+  z-index: 1;
+  color: var(--light-grey);
+}
+
+.hero-section--text__sub-body-text:hover {
+  text-decoration: underline;
+}
+
+.hero-section--portraits {
+  position: absolute;
+  top: 10.8rem;
+}
+
+.sub-hero-section--image {
+  margin-top: 2.4rem;
+  z-index: 1;
+}

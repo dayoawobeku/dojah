@@ -1,0 +1,143 @@
+.flex-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 10.4rem;
+  padding-bottom: 10.4rem;
+}
+
+.flex,
+.right-col,
+.bottom-cols {
+  display: flex;
+}
+
+.grid-section--dark-heading {
+  margin-bottom: 1.6rem;
+  height: 100%;
+  max-height: 14.9rem;
+}
+
+.grid-section--dark-heading h4 {
+  font-size: 3.1rem;
+  margin-bottom: 0.8rem;
+  width: 100%;
+  max-width: 33.3rem;
+  line-height: 4.53rem;
+}
+
+.grid-section--dark-heading .text-light-body {
+  width: 100%;
+  max-width: 33.3rem;
+}
+
+.grid-section--dark-heading:before {
+  content: "";
+  display: block;
+  width: 5rem;
+  height: 0.4rem;
+  background: var(--brand-blue);
+  margin-bottom: 0.8rem;
+}
+
+.grid-section--btn {
+  line-height: 2.05rem;
+  font-weight: var(--athletics-medium);
+}
+
+.grid-section--btn__blue {
+  color: var(--brand-blue);
+  margin-top: 0.8rem;
+}
+
+.grid-section--btn__white,
+.grid-section--btn__blue {
+  width: 100%;
+  max-width: 14rem;
+}
+
+.grid-section--btn__white {
+  color: var(--white);
+}
+
+.grid-section--btn:hover {
+  text-decoration: underline;
+}
+
+.grid-section--btn p {
+  margin-right: 0.8rem;
+}
+
+.grid-components--heading {
+  color: var(--white);
+}
+
+.grid-components--heading:after {
+  content: "";
+  display: block;
+  width: 20rem;
+  height: 0.05rem;
+  background: var(--white);
+  opacity: 0.35;
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+
+.grid-components--heading-large {
+  font-size: 2.5rem;
+  line-height: 3.7rem;
+  width: 100%;
+  max-width: 50.5rem;
+}
+
+.grid-components--heading-medium {
+  font-size: 2rem;
+  line-height: 2.9rem;
+  width: 100%;
+  max-width: 23rem;
+}
+
+.grids {
+  padding-left: 3.2rem;
+}
+
+.grid-one {
+  background: url(https://github.com/awobekuD/dojah/blob/working/src/assets/grid%20images/image-one.png?raw=true);
+  background-size: cover;
+  height: 60.5rem;
+  width: 33.3rem;
+  padding-top: 45rem;
+}
+
+.grid-two {
+  background: url(https://github.com/awobekuD/dojah/blob/working/src/assets/grid%20images/image-two.png?raw=true);
+  background-size: cover;
+  height: 38.8rem;
+  width: 68.7rem;
+  padding-top: 24.6rem;
+}
+
+.grid-three {
+  background: url(https://github.com/awobekuD/dojah/blob/working/src/assets/grid%20images/image%20three.png?raw=true);
+  background-size: cover;
+  height: 36.2rem;
+  width: 33.5rem;
+  padding-top: 20.7rem;
+}
+
+.grid-four {
+  background: url(https://github.com/awobekuD/dojah/blob/working/src/assets/grid%20images/image%20four.png?raw=true);
+  background-size: cover;
+  height: 36.2rem;
+  width: 33.2rem;
+  padding-top: 20.7rem;
+  margin-left: 2rem;
+}
+
+.right-col {
+  flex-direction: column;
+  margin-left: 2rem;
+}
+
+.bottom-cols {
+  margin-top: 2rem;
+}

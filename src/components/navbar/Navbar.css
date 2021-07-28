@@ -1,0 +1,43 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  padding-top: 2.5rem;
+  padding-bottom: 2.6rem;
+  margin-top: 1.6rem;
+  max-height: 8rem;
+}
+
+.dojah-logo {
+  margin-right: 19.3rem;
+}
+
+.navbar--lis,
+.navbar--actions {
+  display: flex;
+  align-items: center;
+}
+
+.navbar--lis * a,
+.navbar--actions__secondary {
+  color: var(--light-grey);
+}
+
+.navbar--lis li:not(:last-child) {
+  margin-right: 3.2rem;
+}
+
+.navbar--actions {
+  margin-left: 9.9rem;
+}
+
+.navbar--actions__secondary {
+  margin-right: 1rem;
+  font-size: 1.4rem;
+  font-weight: var(--athletics-medium);
+}
+
+.navbar--actions__primary Button {
+  background: var(--brand-blue);
+  color: white;
+  padding-right: 3.6rem;
+}

@@ -1,0 +1,16 @@
+.sections-text {
+  width: 100%;
+  /* position: relative; */
+}
+
+.sections-text:before {
+  content: "";
+  display: inline-block;
+  width: 5rem;
+  height: 0.4rem;
+  background: var(--brand-blue);
+}
+
+.section-lis-container {
+  margin-top: 1.6rem;
+}
