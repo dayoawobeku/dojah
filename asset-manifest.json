@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/dojah/static/css/main.6468084b.chunk.css",
+    "main.css": "/dojah/static/css/main.4f5e6b68.chunk.css",
     "main.js": "/dojah/static/js/main.861394f7.chunk.js",
     "main.js.map": "/dojah/static/js/main.861394f7.chunk.js.map",
     "runtime-main.js": "/dojah/static/js/runtime-main.e7fef1cd.js",
@@ -8,14 +8,14 @@
     "static/js/2.e2a81952.chunk.js": "/dojah/static/js/2.e2a81952.chunk.js",
     "static/js/2.e2a81952.chunk.js.map": "/dojah/static/js/2.e2a81952.chunk.js.map",
     "index.html": "/dojah/index.html",
-    "static/css/main.6468084b.chunk.css.map": "/dojah/static/css/main.6468084b.chunk.css.map",
+    "static/css/main.4f5e6b68.chunk.css.map": "/dojah/static/css/main.4f5e6b68.chunk.css.map",
     "static/js/2.e2a81952.chunk.js.LICENSE.txt": "/dojah/static/js/2.e2a81952.chunk.js.LICENSE.txt",
     "static/media/index.css": "/dojah/static/media/Athletics-Regular.ee8d7cf1.woff2"
   },
   "entrypoints": [
     "static/js/runtime-main.e7fef1cd.js",
     "static/js/2.e2a81952.chunk.js",
-    "static/css/main.6468084b.chunk.css",
+    "static/css/main.4f5e6b68.chunk.css",
     "static/js/main.861394f7.chunk.js"
   ]
 }
