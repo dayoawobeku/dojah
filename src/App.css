@@ -6,6 +6,8 @@
   --brand-blue: hsla(217, 71%, 55%, 1);
   --brand-blue: hsla(217, 71%, 55%, 1);
   --light-blue: hsla(217, 71%, 77%, 1);
+  --light-blue-text: hsla(219, 74%, 95%, 1);
+  --light-blue-shade: hsla(217, 71%, 85%, 1);
   --footer-blue: hsla(217, 71%, 62%, 1);
 
   /* font weights */
@@ -31,5 +33,79 @@ body {
   font-family: "Athletics", sans-serif;
 }
 
-h1 {
+.flex-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-display-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+  font-size: 1.4rem;
+  font-weight: var(--athletics-medium);
+}
+
+.text-extrabold-dark,
+.section-heading-texts {
+  font-weight: var(--athletics-extrabold);
+  color: var(--dark-grey);
+}
+
+.text-extrabold-light {
+  font-weight: var(--athletics-extrabold);
+  color: var(--light-blue-text);
+}
+
+.text-bold-light {
+  font-weight: var(--athletics-bold);
+  color: var(--light-blue-text);
+}
+
+.text-light-body {
+  line-height: 2.78rem;
+  font-size: 1.6rem;
+  font-weight: var(--athletics-normal);
+  color: var(--light-grey);
+}
+
+.btn-text {
+  line-height: 2rem;
+  font-size: 1.4rem;
+  font-weight: var(--athletics-normal);
+  color: var(--white);
+}
+
+.section-heading-texts {
+  font-size: 4.8rem;
+  line-height: 6.7rem;
+  margin-bottom: 1.6rem;
+}
+
+/* SCROLLBAR STYLING */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #ebebeb;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: var(--brand-blue);
 }

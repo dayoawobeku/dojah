@@ -1,0 +1,23 @@
+.second-section {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  position: relative;
+}
+
+.second-section--image {
+  width: 72.2rem;
+  height: 63.4rem;
+  margin-left: 8.4rem;
+}
+
+.second-section-art {
+  position: absolute;
+  left: 0;
+  top: 10.4rem;
+}
+
+.second-sections-text {
+  width: 100%;
+  max-width: 43.4rem;
+}

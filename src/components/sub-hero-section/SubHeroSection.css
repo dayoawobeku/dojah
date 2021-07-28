@@ -1,0 +1,40 @@
+.sub-hero-section {
+  height: 100%;
+  max-height: 70rem;
+  background: var(--dark-grey);
+  padding: 36.1rem 39.9rem 8rem 39.8rem;
+  clip-path: polygon(0 15.8rem, 100% 0, 100% 100%, 0% 100%);
+  margin-top: -31.3rem;
+}
+
+.sub-hero-section--text h2 {
+  line-height: 6.58rem;
+  font-size: 4.5rem;
+  max-width: 64.3rem;
+  text-align: center;
+  /* max-height: 12rem; */
+}
+
+.sub-hero-section--text__body {
+  gap: 2.4rem;
+  margin-top: 2.4rem;
+}
+
+.sub-hero-section--text__body p {
+  font-size: 2rem;
+  font-weight: var(--athletics-bold);
+  line-height: 2.9rem;
+  color: var(--light-blue);
+}
+
+.sub-hero-section__body-container {
+  gap: 0.8rem;
+}
+
+.sub-hero-section-favicon-logo {
+  margin-top: 2.4rem;
+}
+
+.partner-companies {
+  padding: 10.4rem 21.4rem;
+}

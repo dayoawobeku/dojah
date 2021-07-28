@@ -1,0 +1,55 @@
+.fourth-section {
+  background: var(--brand-blue);
+  display: flex;
+}
+
+.fourth-section-text {
+  width: 100%;
+  max-width: 56.8rem;
+  margin-top: 10.4rem;
+  margin-left: 20rem;
+}
+
+.fourth-section--heading {
+  font-size: 3.1rem;
+  line-height: 4.5rem;
+}
+
+.fourth-section--body {
+  margin-top: 0.8rem;
+  font-size: 2rem;
+  line-height: 2.9rem;
+}
+
+.fourth-section--btns {
+  display: flex;
+  margin-top: 2.4rem;
+}
+
+.fourth-section-btn--primary {
+  background: var(--white);
+  color: var(--brand-blue);
+  display: flex;
+  align-items: center;
+}
+
+.fourth-section-btn--primary p {
+  margin-right: 0.8rem;
+}
+
+.fourth-section-btn--secondary {
+  color: var(--white);
+  border: 1px solid var(--white);
+  border-radius: 0.4rem;
+  margin-left: 1.6rem;
+}
+
+.hey {
+  margin-left: 2rem;
+}
+
+.fourth-section--image {
+  width: 74.9rem;
+  height: 46.3rem;
+  margin-top: 10.4rem;
+}

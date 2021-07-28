@@ -1,0 +1,18 @@
+.seventh-section {
+  background: url(https://github.com/awobekuD/dojah/blob/working/src/assets/seventh%20section%20image.png?raw=true),
+    linear-gradient(90.51deg, #3977de 45.24%, rgba(57, 119, 222, 0) 97.6%);
+  background-blend-mode: multiply;
+  background-size: cover;
+  display: flex;
+  padding-bottom: 10.4rem;
+  padding-top: 10.4rem;
+}
+
+.seventh-section-text {
+  margin-left: 20rem;
+}
+
+.seventh-section--heading {
+  width: 100%;
+  max-width: 46.7rem;
+}

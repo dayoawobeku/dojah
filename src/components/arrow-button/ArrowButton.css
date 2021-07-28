@@ -1,0 +1,11 @@
+.arrow-button {
+  display: flex;
+  align-items: center;
+  background: var(--brand-blue);
+  color: var(--white);
+  margin-top: 0.8rem;
+}
+
+.arrow-button p {
+  margin-right: 0.8rem;
+}

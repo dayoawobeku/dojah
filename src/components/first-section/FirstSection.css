@@ -1,0 +1,22 @@
+.first-section {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.first-section--image {
+  width: 71.8rem;
+  height: 63.4rem;
+  margin-right: 8.8rem;
+}
+
+.first-section-art {
+  position: absolute;
+  right: 0;
+  bottom: 5.1rem;
+}
+
+.first-sections-text {
+  width: 100%;
+  max-width: 46.1rem;
+}
