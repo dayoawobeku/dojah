@@ -15,17 +15,6 @@
   margin-top: 10.4rem;
 }
 
-.fourth-section--heading {
-  font-size: 3.1rem;
-  line-height: 4.5rem;
-}
-
-.fourth-section--body {
-  margin-top: 0.8rem;
-  font-size: 2rem;
-  line-height: 2.9rem;
-}
-
 .text-arrow-btns {
   display: flex;
   align-items: center;
@@ -49,8 +38,59 @@
 }
 
 .fifth-section--image {
-  width: 76.7rem;
-  height: 47.4rem;
+  max-width: 76.7rem;
+  max-height: 47.4rem;
   margin-top: 10.4rem;
   margin-left: -24rem;
+}
+
+/* MEDIA QUERIES for screens (1024, 768, 426)*/
+
+@media screen and (max-width: 1024px) {
+  .fifth-section {
+    height: 30.6rem;
+  }
+
+  .fifth-section-text {
+    margin-top: 8rem;
+  }
+
+  .fifth-section--image {
+    max-width: 54.5rem;
+    max-height: 33.7rem;
+    margin-top: 8rem;
+    margin-left: -4rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .fifth-section {
+    height: 25.2rem;
+  }
+
+  .fifth-section--image {
+    max-width: 40.9rem;
+    max-height: 25.3rem;
+    margin-top: 8rem;
+    margin-left: 1rem;
+  }
+
+  .fifth-section-text {
+    margin-top: 4rem;
+  }
+}
+@media screen and (max-width: 426px) {
+  .fifth-section {
+    height: 20rem;
+    margin-bottom: 4rem;
+  }
+
+  .fifth-section--image {
+    display: none;
+  }
+
+  .fifth-section-text {
+    margin-left: 2.4rem;
+    margin-right: 2.4rem;
+  }
 }

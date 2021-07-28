@@ -5,8 +5,10 @@
 }
 
 .first-section--image {
-  width: 71.8rem;
-  height: 63.4rem;
+  width: 100%;
+  height: 100%;
+  max-width: 71.8rem;
+  max-height: 63.4rem;
   margin-right: 8.8rem;
 }
 
@@ -19,4 +21,65 @@
 .first-sections-text {
   width: 100%;
   max-width: 46.1rem;
+}
+
+/* MEDIA QUERIES for screens (1024, 768, 426)*/
+
+@media screen and (max-width: 1024px) {
+  .first-section--image {
+    max-width: 51.1rem;
+    max-height: 45.1rem;
+    margin-right: 4rem;
+  }
+
+  .first-section-art {
+    max-width: 8.1rem;
+    max-height: 8.1rem;
+    bottom: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .first-section {
+    margin-bottom: 4rem;
+  }
+
+  .first-section--image {
+    max-width: 38.3rem;
+    max-height: 33.8rem;
+    margin-right: 4.7rem;
+  }
+
+  .first-section-art {
+    max-width: 6.1rem;
+    max-height: 6.1rem;
+    bottom: -1rem;
+  }
+
+  .first-sections-text {
+    margin-left: -2rem;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .first-section {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+
+  .first-section--image {
+    max-width: 26.9rem;
+    max-height: 23.8rem;
+    margin-left: 2.4rem;
+  }
+
+  .first-sections-text {
+    width: 100%;
+    max-width: 32rem;
+    margin-left: 2.4rem;
+  }
+
+  .first-section-art {
+    display: none;
+  }
 }

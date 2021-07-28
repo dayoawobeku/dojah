@@ -67,6 +67,7 @@ function Footer() {
           />
           <p className="footer--contact__text ">info@dojah.io</p>
         </div>
+
         <div className="footer--social-links">
           <a href="#">
             <img

@@ -6,6 +6,7 @@
   display: flex;
   padding-bottom: 10.4rem;
   padding-top: 10.4rem;
+  background-position: center;
 }
 
 .seventh-section-text {
@@ -15,4 +16,28 @@
 .seventh-section--heading {
   width: 100%;
   max-width: 46.7rem;
+}
+
+/* MEDIA QUERIES for screens (1024, 768, 426)*/
+@media screen and (max-width: 1024px) {
+  .seventh-section-text {
+    margin-left: 5.6rem;
+  }
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 426px) {
+  .seventh-section {
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+  }
+
+  .seventh-section-text {
+    margin-left: 2.4rem;
+  }
+
+  .seventh-section--heading {
+    font-size: 1.8rem;
+    max-width: 30rem;
+  }
 }

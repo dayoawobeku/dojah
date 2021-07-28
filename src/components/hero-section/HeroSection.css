@@ -57,6 +57,7 @@
 }
 
 .hero-section--portraits {
+  display: block;
   position: absolute;
   top: 10.8rem;
 }
@@ -64,4 +65,97 @@
 .sub-hero-section--image {
   margin-top: 2.4rem;
   z-index: 1;
+}
+
+.hero-section--portraits-tablet {
+  display: none;
+}
+/* MEDIA QUERIES for screens (1024, 768, 540)*/
+
+@media screen and (max-width: 1024px) {
+  .hero-section {
+    max-width: 54.2rem;
+    margin-top: 5.8rem;
+  }
+
+  .hero-section--portraits {
+    width: 100%;
+    max-width: 90rem;
+    top: 9.8rem;
+  }
+
+  .hero-section--text h1 {
+    line-height: 6.4rem;
+    font-size: 4.4rem;
+  }
+
+  .sub-hero-section--image {
+    width: 100%;
+    max-width: 71rem;
+    margin-top: 5.4rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-section {
+    max-width: 38.5rem;
+    margin-top: 5.8rem;
+  }
+
+  .hero-section--text h1 {
+    line-height: 4.8rem;
+    font-size: 3.3rem;
+  }
+
+  .hero-section--portraits {
+    display: none;
+  }
+
+  .hero-section--portraits-tablet {
+    display: block;
+    position: absolute;
+    width: 100%;
+    max-width: 67.5rem;
+    top: 10.9rem;
+  }
+
+  .sub-hero-section--image {
+    width: 100%;
+    max-width: 53.3rem;
+  }
+
+  .hero-section--text p {
+    max-width: 30.7rem;
+  }
+
+  .hero-section--actions__secondary Button,
+  .hero-section--actions__primary Button {
+    padding: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .hero-section {
+    max-width: 38.5rem;
+    margin-top: 3.8rem;
+  }
+
+  .hero-section--text h1 {
+    line-height: 3.4rem;
+    font-size: 2.3rem;
+  }
+
+  .hero-section--portraits-tablet {
+    display: none;
+  }
+
+  .hero-section--actions__secondary Button,
+  .hero-section--actions__primary Button {
+    padding: 1rem 1.2rem;
+  }
+
+  .sub-hero-section--image {
+    width: 100%;
+    max-width: 33.5rem;
+  }
 }

@@ -73,7 +73,7 @@ li {
 }
 
 .text-light-body {
-  line-height: 2.78rem;
+  line-height: 2.8rem;
   font-size: 1.6rem;
   font-weight: var(--athletics-normal);
   color: var(--light-grey);
@@ -90,6 +90,40 @@ li {
   font-size: 4.8rem;
   line-height: 6.7rem;
   margin-bottom: 1.6rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .section-heading-texts {
+    font-size: 4rem;
+    line-height: 4.8rem;
+    margin-bottom: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section-heading-texts {
+    font-size: 3rem;
+    line-height: 3.6rem;
+    margin-bottom: 1.6rem;
+  }
+
+  .text-light-body {
+    line-height: 2.4rem;
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .section-heading-texts {
+    font-size: 2.5rem;
+    line-height: 3.6rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .text-light-body {
+    line-height: 2.4rem;
+    font-size: 1.4rem;
+  }
 }
 
 /* SCROLLBAR STYLING */

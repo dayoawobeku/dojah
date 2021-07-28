@@ -117,7 +117,7 @@
 }
 
 .grid-three {
-  background: url(https://github.com/awobekuD/dojah/blob/working/src/assets/grid%20images/image%20three.png?raw=true);
+  background: url(https://github.com/awobekuD/dojah/blob/working/src/assets/grid%20images/image-three.png?raw=true);
   background-size: cover;
   height: 36.2rem;
   width: 33.5rem;
@@ -125,7 +125,7 @@
 }
 
 .grid-four {
-  background: url(https://github.com/awobekuD/dojah/blob/working/src/assets/grid%20images/image%20four.png?raw=true);
+  background: url(https://github.com/awobekuD/dojah/blob/working/src/assets/grid%20images/image-four.png?raw=true);
   background-size: cover;
   height: 36.2rem;
   width: 33.2rem;
@@ -140,4 +140,229 @@
 
 .bottom-cols {
   margin-top: 2rem;
+}
+
+/* MEDIA QUERIES for screens (1024, 768, 426)*/
+
+@media screen and (max-width: 1024px) {
+  .grid-section--dark-heading {
+    max-width: 24rem;
+  }
+
+  .grid-section--dark-heading h4 {
+    font-size: 2.4rem;
+    line-height: 4rem;
+  }
+
+  .grid-section--dark-heading p {
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+  }
+
+  .grid-components--heading-large {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+
+  .grid-components--heading-medium {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    width: 100%;
+    max-width: 21rem;
+  }
+
+  .grid-section--btn {
+    font-size: 1.2rem;
+  }
+
+  .grids {
+    padding-left: 1.6rem;
+  }
+
+  .grid-one {
+    width: 23.7rem;
+    height: 38.9rem;
+    padding-top: 28rem;
+  }
+
+  .grid-two {
+    width: 48.9rem;
+    height: 27.6rem;
+    padding-top: 16rem;
+  }
+
+  .grid-three {
+    width: 23.8rem;
+    height: 25.7rem;
+    padding-top: 15rem;
+  }
+
+  .grid-four {
+    width: 23.6rem;
+    height: 25.7rem;
+    padding-top: 15rem;
+  }
+
+  .right-col {
+    margin-left: 1.6rem;
+  }
+
+  .bottom-cols {
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .grid-section--dark-heading {
+    max-width: 18rem;
+    margin-bottom: 5rem;
+  }
+
+  .grid-section--dark-heading h4 {
+    font-size: 2rem;
+    line-height: 2.6rem;
+  }
+
+  .grid-section--dark-heading p {
+    font-size: 1.4rem;
+  }
+
+  .grid-components--heading-large {
+    font-size: 1.8rem;
+  }
+
+  .grid-components--heading-medium {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    width: 100%;
+    max-width: 14rem;
+  }
+
+  .grid-section--btn {
+    font-size: 1.2rem;
+  }
+
+  .grids {
+    padding-left: 1rem;
+  }
+
+  .right-col {
+    margin-left: 2rem;
+  }
+
+  .bottom-cols {
+    margin-top: 2rem;
+  }
+
+  .grid-one {
+    width: 17.8rem;
+    height: 26.2rem;
+    padding-top: 10.5rem;
+  }
+
+  .grid-two {
+    width: 36.7rem;
+    height: 20.7rem;
+    padding-top: 9.5rem;
+  }
+
+  .grid-three {
+    width: 17rem;
+    height: 23.4rem;
+    padding-top: 7.7rem;
+  }
+
+  .grid-four {
+    width: 17.7rem;
+    height: 23.4rem;
+    padding-top: 7.7rem;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .flex,
+  .right-col,
+  .bottom-cols {
+    flex-direction: column;
+  }
+
+  .flex-container {
+    justify-content: flex-start;
+    margin-left: 2.4rem;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .grid-section--dark-heading {
+    max-width: 36rem;
+    margin-bottom: -2rem;
+  }
+
+  .grid-section--dark-heading h4 {
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+  }
+
+  .grid-section--dark-heading p {
+    font-size: 1.4rem;
+  }
+
+  .grid-components--heading-large {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    max-width: 19rem;
+  }
+
+  .grid-components--heading-medium {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    width: 100%;
+    max-width: 19rem;
+  }
+
+  .grid-section--btn {
+    font-size: 1.2rem;
+  }
+
+  .grids {
+    padding-left: 1rem;
+  }
+
+  .right-col {
+    margin-left: 0;
+  }
+
+  .bottom-cols {
+    margin-top: 0;
+  }
+
+  .grid-one,
+  .grid-two,
+  .grid-three,
+  .grid-four {
+    width: 100%;
+    height: 12.7rem;
+  }
+
+  .grid-one {
+    margin-bottom: 4.8rem;
+    padding-top: 4.6rem;
+  }
+
+  .grid-two {
+    padding-top: 4.6rem;
+    margin-bottom: 1.6rem;
+  }
+
+  .grid-three {
+    margin-bottom: 1.6rem;
+    padding-top: 4.6rem;
+  }
+
+  .grid-four {
+    padding-top: 4.6rem;
+    margin-bottom: 4.8rem;
+
+    margin-left: 0;
+  }
 }
