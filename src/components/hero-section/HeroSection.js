@@ -33,6 +33,11 @@ function HeroSection() {
         alt="hero-section-portraits"
         className="hero-section--portraits"
       />
+      <img
+        src="https://raw.githubusercontent.com/awobekuD/dojah/731c13f033ff3736088221c785b583ddcab7f64f/src/assets/hero%20section%20portraits%20tablet.svg"
+        alt="hero-section-portraits"
+        className="hero-section--portraits-tablet"
+      />
 
       <img
         src="https://raw.githubusercontent.com/awobekuD/dojah/d79b08a56584367f5c4fa26726fdc45227bef5cc/src/assets/sub%20hero%20section%20image.svg"

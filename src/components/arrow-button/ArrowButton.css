@@ -9,3 +9,17 @@
 .arrow-button p {
   margin-right: 0.8rem;
 }
+
+/* MEDIA QUERIES for screens (768, 426)*/
+
+@media screen and (max-width: 768px) {
+  .arrow-button {
+    padding: 1rem 1.4rem;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .arrow-button {
+    padding: 1rem 1.2rem;
+  }
+}

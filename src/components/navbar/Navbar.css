@@ -8,7 +8,13 @@
 }
 
 .dojah-logo {
-  margin-right: 19.3rem;
+  margin-right: 20.9rem;
+}
+
+.navbar--lis-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .navbar--lis,
@@ -27,7 +33,7 @@
 }
 
 .navbar--actions {
-  margin-left: 9.9rem;
+  margin-left: 11.9rem;
 }
 
 .navbar--actions__secondary {
@@ -40,4 +46,138 @@
   background: var(--brand-blue);
   color: white;
   padding-right: 3.6rem;
+}
+
+.btn-mobile {
+  display: none;
+  border: none;
+  background-color: #fff;
+  color: var(--text);
+  cursor: pointer;
+}
+
+/* MEDIA QUERIES for screens (1024, 768, 425)*/
+
+@media screen and (max-width: 1024px) {
+  .dojah-logo {
+    margin-right: 8.9rem;
+  }
+
+  .navbar--actions {
+    margin-left: 8.9rem;
+  }
+
+  .navbar--actions__primary Button {
+    padding-right: 2.4rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav-container {
+    display: block;
+  }
+
+  .dojah-logo {
+    margin-right: 0;
+    max-width: 8.2rem;
+    max-height: 2.5rem;
+  }
+
+  .navbar {
+    padding: 4rem;
+    margin-top: 0;
+    background-color: #e7f2fe;
+  }
+
+  .nav-lis-mobile {
+    position: absolute;
+    top: 6.4rem;
+    left: 0;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e7f2fe;
+    width: 100%;
+    transition: all 0.5s ease-out;
+    text-align: center;
+    height: 29rem;
+    z-index: 2;
+  }
+
+  .navbar--lis-container {
+    display: none;
+  }
+
+  .navbar--lis {
+    flex-direction: column;
+    padding-right: 0;
+    margin-right: 0;
+  }
+
+  .navbar--lis li {
+    margin-bottom: 1.4rem;
+    text-align: center;
+  }
+
+  .navbar--lis li:not(:last-child) {
+    margin-right: 0;
+  }
+
+  .navbar--actions {
+    margin-left: 0;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .navbar--actions__primary Button {
+    margin-top: 1.4rem;
+    padding: 1.4rem;
+  }
+
+  .navbar--actions__secondary {
+    margin-right: 0;
+  }
+
+  .btn-mobile {
+    position: absolute;
+    top: 2.4rem;
+    right: 4rem;
+    display: flex;
+    background-color: #e7f2fe;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .dojah-logo {
+    max-width: 7.8rem;
+    max-height: 2.1rem;
+  }
+
+  .navbar {
+    padding: 2rem;
+  }
+
+  .nav-lis-mobile {
+    height: 25rem;
+    top: 4.8rem;
+  }
+
+  .btn-mobile {
+    right: 2.4rem;
+    top: 2rem;
+  }
+
+  .navbar--actions__primary Button {
+    padding: 1rem 1.2rem;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .navbar a {
+    font-size: 1.2rem;
+  }
+
+  .navbar--lis li {
+    margin-bottom: 1rem;
+  }
 }

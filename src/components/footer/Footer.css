@@ -88,5 +88,82 @@
 .footer--ending_text2 {
   margin-bottom: 1.9rem;
   width: 100%;
-  max-width: 104rem;
+  max-width: 102rem;
+}
+
+/* MEDIA QUERIES for screens (1024, 768, 426)*/
+
+@media screen and (max-width: 1024px) {
+  .footer--links {
+    margin-left: 5.6rem;
+  }
+
+  .footer--contact-container {
+    margin-left: 5.6rem;
+  }
+
+  .footer--ending {
+    margin-left: 5.6rem;
+  }
+
+  .footer--ending_text2 {
+    max-width: 80rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .footer--ending_text2 {
+    max-width: 64rem;
+  }
+}
+@media screen and (max-width: 426px) {
+  .footer {
+    padding-top: 4rem;
+    padding-bottom: 8rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .footer--headings {
+    font-size: 1.4rem;
+  }
+
+  .footer--links {
+    margin-left: 2.4rem;
+    margin-top: 4rem;
+  }
+
+  .footer--contact {
+    margin-left: 1.6rem;
+  }
+
+  .footer--contact-container {
+    margin-left: 1.4rem;
+    order: 1;
+  }
+
+  .footer--links-container {
+    flex-direction: column;
+    order: 2;
+  }
+
+  .footer a {
+    font-size: 1.2rem;
+  }
+
+  .footer--ending {
+    margin-left: 2.4rem;
+    order: 3;
+  }
+
+  .footer--ending {
+    max-width: 28rem;
+  }
+
+  .footer--social-links {
+    position: absolute;
+    display: flex;
+    left: 0;
+    top: 11rem;
+  }
 }

@@ -5,8 +5,10 @@
 }
 
 .third-section--image {
-  width: 71.8rem;
-  height: 82.6rem;
+  width: 100%;
+  height: 100%;
+  max-width: 71.8rem;
+  max-height: 82.6rem;
   margin-right: 8.4rem;
 }
 
@@ -31,4 +33,60 @@
   font-weight: var(--athletics-medium);
   color: var(--dark-grey);
   line-height: 2.34rem;
+}
+
+/* MEDIA QUERIES for screens (1024, 768, 426)*/
+
+@media screen and (max-width: 1024px) {
+  .third-section--image {
+    width: 51.5rem;
+    height: 58.7rem;
+    margin-right: 4rem;
+  }
+
+  .third-section-art {
+    max-width: 4rem;
+    max-height: 4rem;
+    right: 8.7rem;
+    bottom: 0rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .third-section--image {
+    width: 38.3rem;
+    height: 44.1rem;
+    margin-right: 3.2rem;
+  }
+
+  .third-section-art {
+    max-width: 4rem;
+    max-height: 4rem;
+    right: 8.7rem;
+    bottom: 0rem;
+  }
+
+  .third-sections-text {
+    max-width: 32rem;
+  }
+}
+@media screen and (max-width: 426px) {
+  .third-section {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    margin-bottom: 4rem;
+  }
+
+  .third-section--image {
+    width: 21.2rem;
+    height: 22.4rem;
+    margin-left: 2.4rem;
+  }
+
+  .third-sections-text {
+    margin-left: 2.4rem;
+  }
+
+  .third-section-art {
+    display: none;
+  }
 }
